@@ -16,8 +16,12 @@ h1 {
   font-family: var(--heading-font-family);
   font-size: 96px;
 }
+h2 {
+  font-size: 64px;
+}
 p {
   font-weight: normal;
+  font-size: 16px;
 }
 .hero {
   background: var(--secondary-color);
