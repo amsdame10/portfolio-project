@@ -1,4 +1,4 @@
-h1 {
+h1 h2 h3 h4 h5 h6 {
   font-family: "Playfair Display", serif;
   color: black;
   font-weight: bold;
@@ -10,4 +10,8 @@ p {
 .hero {
   background: #f9f7fe;
   text-align: center;
+}
+.hero p {
+  font-family: 36px;
+  font-weight: bold;
 }
