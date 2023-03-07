@@ -1,8 +1,9 @@
 :root {
-  --branding-color: #6c63ff;
-  --secondary-color: #f9f7fe;
+  --btn-color: #6c63ff;
+  --background-color: #f9f7fe;
   --heading-font-family: "Playfair Display", serif;
   --default-font-family: "Poppins", sans-serif;
+  --subheading-font-family: "Poppins", sans-serif;
 }
 nav a {
   font-family: var(--subheading-font-family);
@@ -40,8 +41,8 @@ p {
   color: #272142;
 }
 .btn-branding {
-  background: var(--btn-background-color);
-  color: #ffffff;
+  background: #e8defc;
+  color: var(--btn-color);
   font-family: var(--subheading-font-family);
   font-weight: 500;
   font-size: 18px;
@@ -56,14 +57,16 @@ p {
   background-color: var(--background-color);
 }
 .project-outline {
+  background: #e8defc;
+  color: var(--btn-color);
   font-size: 16px;
   font-weight: 400;
   color: #272142b2;
   line-height: 30px;
 }
 .btn-launch {
-  background: var(--background-color);
-  color: #6c63ff;
+  background: #e8defc;
+  color: var(--btn-color);
   font-family: var(--subheading-font-family);
   font-weight: 500;
   font-size: 16px;
@@ -94,9 +97,9 @@ p {
   font-weight: 400;
 }
 .btn-contact {
-  background: var(--btn-background-color);
+  background: #e8defc;
+  color: var(--btn-color);
   width: 200px;
-  color: #ffffff;
   font-family: var(--subheading-font-family);
   font-weight: 500;
   font-size: 18px;
@@ -155,6 +158,10 @@ p {
   color: var(--background-color);
   background: var(--btn-background-color);
 }
+.img-fluid {
+  size: 300px 200px;
+  border-radius: 15px;
+}
 @media (max-width: 900px) {
   h1 {
     font-size: 60px;
@@ -174,6 +181,7 @@ p {
     text-align: center;
   }
   .contact h1 {
+    color: var(--btn-background-color);
     text-align: center;
     padding: 0px;
   }
