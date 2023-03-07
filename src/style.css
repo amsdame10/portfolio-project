@@ -51,6 +51,17 @@ p {
   text-decoration: none;
   transition: 250ms;
 }
+.btn-branding-outline {
+  background: #e8defc;
+  color: var(--btn-color);
+  font-family: var(--subheading-font-family);
+  font-weight: 500;
+  font-size: 18px;
+  border-radius: 4px;
+  padding: 18px 30px;
+  text-decoration: none;
+  transition: 250ms;
+}
 .btn-branding:hover {
   cursor: pointer;
   color: var(--btn-background-color);
