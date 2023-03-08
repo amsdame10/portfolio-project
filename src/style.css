@@ -6,6 +6,7 @@
   --subheading-font-family: "Poppins", sans-serif;
 }
 nav a {
+  --btn-color: #6c63ff;
   font-family: var(--subheading-font-family);
 }
 
