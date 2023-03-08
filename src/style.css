@@ -10,12 +10,14 @@ nav a {
 }
 
 h1 {
+  text-align: center;
   font-family: var(--heading-font-family);
   font-size: 64px;
   font-weight: 700;
   color: #000000;
 }
 p {
+  text-align: center;
   font-family: var(--subheading-font-family);
   font-size: 18px;
   font-weight: 400;
@@ -120,22 +122,26 @@ p {
   transition: 250ms;
 }
 .content {
+  text-align: center;
   padding: 150px 0;
 }
 .content h1 {
   text-align: center;
 }
 .content h2 {
+  text-align: center;
   font-size: 18px;
   font-weight: 700;
   color: #272142;
   line-height: 30px;
 }
 .content h3 {
+  text-align: center;
   font-weight: 700;
   font-size: 24px;
 }
 .content p {
+  text-align: center;
   font-size: 16px;
   font-weight: 400;
   color: #272142b2;
@@ -170,7 +176,8 @@ p {
   background: var(--btn-background-color);
 }
 .img-fluid {
-  size: 300px 200px;
+  text-align: center;
+  size: 200px 100px;
   border-radius: 15px;
 }
 @media (max-width: 900px) {
