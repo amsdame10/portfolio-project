@@ -187,8 +187,10 @@ p {
   border-radius: 15px;
 }
 .img-fluid-rounded-3 {
-  border-radius: 45px;
-  padding-top: 48px 30px;
+  text-align: center;
+  border-radius: 25px;
+  padding-top: 50px 40px;
+  padding: 70px;
 }
 @media (max-width: 900px) {
   h1 {
