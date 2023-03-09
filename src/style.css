@@ -19,7 +19,7 @@ h1 {
 }
 p {
   text-align: center;
-  font-family: var(--subheading-font-family);
+  font-family: var(--heading-font-family);
   font-size: 18px;
   font-weight: 400;
   color: #272142;
@@ -138,6 +138,10 @@ p {
 }
 .content h3 {
   text-align: center;
+  font-weight: 700;
+  font-size: 24px;
+}
+.content h4 {
   font-weight: 700;
   font-size: 24px;
 }
