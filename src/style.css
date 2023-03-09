@@ -9,9 +9,6 @@ nav a {
   color: var(--btn-color);
   font-family: var(--subheading-font-family);
 }
-nav a:hover {
-  color: var(--btn-color);
-}
 .nav-link {
   color: var(--btn-color);
 }
