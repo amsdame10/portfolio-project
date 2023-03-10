@@ -11,6 +11,7 @@ nav a {
 }
 .nav-link {
   color: var(--btn-color);
+  font-family: var(--subheading-font-family);
 }
 h1 {
   text-align: center;
@@ -171,7 +172,7 @@ p {
   cursor: pointer;
 }
 .social-icons a {
-  color: var(--btn-background-color);
+  color: var(--btn-color);
   margin: 0 20px;
   background: var(--background-color);
   padding: 10px 14px;
@@ -180,8 +181,10 @@ p {
   transition: 150ms ease-in-out;
 }
 .social-icons a:hover {
-  color: var(--background-color);
   background: var(--btn-background-color);
+}
+.mt-4 {
+  color: var(--btn-color);
 }
 .img-fluid {
   text-align: center;
