@@ -92,6 +92,9 @@ p {
   text-decoration: none;
   transition: 250ms;
 }
+.project-description{
+  size: 200px 100px;
+}
 .project-showcase {
   padding: 70px;
 }
